@@ -1,0 +1,15 @@
+body{
+ margin:0px;
+}
+
+div{
+ overflow: hidden; /* impede que o filho (a <img>) vaze para fora do limite do container */
+ display: flex; /* Inicia o Flexbox e posiciona os filhos lado a lado */
+ align-items: center; /* Alinha os filhos verticalmente */
+ justify-content: center; /* Alinha os filhos horizontalmente */
+}
+
+img{
+ flex-grow: 1; /* ocupa uma parte inteira do container (da <div>) */
+ max-height: 60vw; /* Maneiras de trabalhar com tamnho relativo: vw, vh, %,  */
+}
